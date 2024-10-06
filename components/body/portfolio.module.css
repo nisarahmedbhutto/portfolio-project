@@ -1,0 +1,39 @@
+/* portfolio.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    font-size: 40px;
+    height: 40vh;
+    position: relative;
+    color: rgb(109, 101, 101);
+
+}
+
+.h1Headings {
+  position: relative; /* tooltip*/
+  cursor: pointer;
+}
+
+.tooltip {
+  display: none; /*Initially hidden*/
+  position: absolute;
+  background-color: #181717; /* Background color of tooltip */
+  color: #918080; /* Text color */
+  padding: 5px;
+  border-radius: 4px;
+  top: 100%; /* Positioning below the heading */
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 10; /* Ensure it appears above other elements */
+
+}
+
+.h1Headings:hover .tooltip {
+  display: flex; /*Show tooltip on hover*/
+  justify-content: center;
+  font-size: 20px;
+  width: 250px;
+list-style-type: none;}
+

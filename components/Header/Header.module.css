@@ -1,0 +1,17 @@
+
+
+.header{
+    display: flex;
+    background-color:rgb(59, 59, 59);
+    color: rgb(168, 164, 164);
+    height: 60px;
+    justify-content:center ;
+    gap:150px;
+    align-items: center;
+    border-radius: 50px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    z-index: 1000;
+}

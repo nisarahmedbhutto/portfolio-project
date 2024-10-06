@@ -1,0 +1,39 @@
+
+.container{
+    margin-top: 400px;
+}
+
+.footer{
+    display: flex;
+    background-color:rgb(225, 241, 241);
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    
+}
+
+.coreCourses{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.core{
+    font-size: 35px;
+}
+
+.advance{
+    font-size: 35px;
+}
+
+.links{
+    font-size: 35px;
+}
